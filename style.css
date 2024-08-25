@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    background-color: #f3f5fc;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    box-sizing: border-box;
+    color: black;
+}
+
+.container__logo {
+    margin-left: 0px;
+    margin-top: 15px;
+    
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.textarea {
+    border: none;
+    color: #0A3871;   
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+  
+::placeholder { color: #0A3871 }
+    .textarea:focus {
+        outline: none;
+}
+
+.mensagem {
+    background-color: white;
+    background-image: url(./assets/High\ quality\ products\ 1\ 1.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.botaocript {
+    border-radius: 20px;
+    width: 40%;
+    border: none;
+    background-color: #0A3871;
+    color: #f3f5fc;
+    text-decoration: none;
+    font-size: 28px;
+    height: 67px;
+    cursor: pointer;
+}
+
+.botaodescript {
+    border-radius: 20px;
+    width: 40%;
+    border: 2px solid #0A3871;
+    color: #0A3871;
+    font-size: 28px;
+    cursor: pointer;
+    
+}
+
+.botaocopiar {
+    border-radius: 20px;
+    width: 18%;
+    border: 2px solid #0A3871;
+    color: #0A3871;
+    font-size: 28px;
+    margin-left: 108px;
+    margin-top: 420px;
+    position: absolute;
+    height: 67px;
+}
+
+.informacao {
+    color: #495057;
+}
+
+h6 {
+    font-size: 26px;
+    text-transform: lowercase;
+}
